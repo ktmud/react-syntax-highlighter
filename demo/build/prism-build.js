@@ -40489,7 +40489,7 @@ function getInlineLineNumber(lineNumber, inlineLineNumberStyle) {
     tagName: 'span',
     properties: {
       key: "line-number--".concat(lineNumber),
-      className: ['comment', 'linenumber', 'react-syntax-highlighter-line-number'],
+      className: ['linenumber', 'react-syntax-highlighter-line-number'],
       style: inlineLineNumberStyle
     },
     children: [{
